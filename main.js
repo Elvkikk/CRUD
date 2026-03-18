@@ -1,4 +1,7 @@
-
+const crudContainer = document.getElementById('container');
+const 
 // footer 
+const footer = document.createElement('footer'); 
 const year = new Date().getFullYear();
-document.querySelector('footer').textContent = `© ${year} CRUD Applikation. Alla rättigheter förbehållna.`;
+footer.textContent = `© ${year} CRUD Applikation. Alla rättigheter förbehållna.`;
+document.body.appendChild(footer);
