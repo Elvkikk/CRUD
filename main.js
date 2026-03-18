@@ -19,7 +19,6 @@ loadIonicons();
 const header = document.createElement('header');
 header.id = 'dynamic-header';
 header.classList.add('header-style');
-header.textContent = 'CRUD Applikation';
 document.body.appendChild(header);
 
 const nav = document.createElement('nav');
@@ -38,6 +37,42 @@ navItems.forEach(item => {
 
 nav.appendChild(navList);
 header.appendChild(nav);
+
+const title = document.createElement('h1');
+title.classList.add('title-style');
+title.textContent = 'CRUD Applikation';
+header.appendChild(title);
+
+// Div-container
+const mainDiv = document.createElement('div');
+mainDiv.id = 'main-div';
+mainDiv.classList.add('main-div-style');
+document.body.appendChild(mainDiv);
+
+const upperDiv = document.createElement('div');
+upperDiv.id = 'upper-div';
+upperDiv.classList.add('upper-div-style');
+mainDiv.appendChild(upperDiv);
+
+const lowerDiv = document.createElement('div');
+lowerDiv.id = 'lower-div';
+lowerDiv.classList.add('lower-div-style');
+mainDiv.appendChild(lowerDiv);
+
+const rightDiv = document.createElement('div');
+rightDiv.id = 'right-div';
+rightDiv.classList.add('right-div-style');
+mainDiv.appendChild(rightDiv);
+
+const leftDiv = document.createElement('div');
+leftDiv.id = 'left-div';
+leftDiv.classList.add('left-div-style');
+mainDiv.appendChild(leftDiv);
+
+const centerDiv = document.createElement('div');
+centerDiv.id = 'center-div';
+centerDiv.classList.add('center-div-style');
+mainDiv.appendChild(centerDiv);
 
 // Footer 
 const footer = document.createElement('footer'); 
