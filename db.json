@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@example.com"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "book",
+      "title": "The Hobbit",
+      "creator": "J.R.R. Tolkien",
+      "year": 1937,
+      "description": "A fantasy adventure novel."
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "movie",
+      "title": "Interstellar",
+      "creator": "Christopher Nolan",
+      "year": 2014,
+      "description": "A science fiction film about space and time."
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "type": "song",
+      "title": "Imagine",
+      "creator": "John Lennon",
+      "year": 1971,
+      "description": "A classic song about peace and hope."
+    }
+  ]
+}

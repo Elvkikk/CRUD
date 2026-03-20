@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server . -a 127.0.0.1 -p 3000 -c-1",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "db": "json-server --watch db.json --port 3001",
-    "start": "json-server --watch db.json --port 3001"
+    "db": "json-server db.json --host 127.0.0.1 --port 3001"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
     "json-server": "^1.0.0-beta.3",
     "modules": "^0.4.0",
     "node": "^25.8.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
