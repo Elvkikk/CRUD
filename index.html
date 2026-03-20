@@ -7,7 +7,28 @@
     <script src="main.js" defer></script>
     <title>CRUD</title>
 </head>
-<body>
+<body class="login-page">
+    <nav>
+        <ul>
+            <li><a href="#">Hem</a></li>
+            <li><a href="#">Om</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Logga in</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Välkommen till CRUD-applikationen</h1>
+    </header>
+    <section class="login-section">
+        <div>
+            <h2>Skap ett konto</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Användarnamn" required>
+                <input type="password" id="password" placeholder="Lösenord" required>
+                <button type="submit">Skapa konto</button>
+            </form>
+        </div>
+    </section>
       
 </body>
 </html>
