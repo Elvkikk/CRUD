@@ -1,5 +1,5 @@
 const API_HOST = window.location.hostname || "127.0.0.1"; // Dynamiskt API-host baserat på var sidan laddas ifrån, med fallback till localhost
-const API_BASE_URL = `http://${API_HOST}:3001`;
+const API_BASE_URL = `http://${API_HOST}:3000`;
 const DEFAULT_USER_ID = 1;
 const storageApi = window.localStorageApi; // Exponerar localStorage API via en global variabel för att hålla main.js mer fokuserad på UI och API-interaktion
 const UI_STATE_KEY = "crud-ui-state"; // Nyckel för att spara UI-tillstånd i sessionStorage, vilket gör att vi kan bevara saker som vilken vy som är aktiv eller vilket objekt som redigeras även när sidan laddas om
